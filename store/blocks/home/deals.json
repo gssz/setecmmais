@@ -1,17 +1,19 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.row#deals1",
+      "flex-layout.row#deals2",
+      "flex-layout.row#deals3"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
 
-  "flex-layout.col#deals1": {
+  "flex-layout.row#deals1": {
+    "props": {
+      "blockClass": "info-box"
+    },
     "children": [
       "image#deal1",
       "rich-text#deal1"
@@ -20,16 +22,21 @@
   "image#deal1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "width": "57px",
+      "maxHeight": "unset",
+      "bodyClass": "image-info-box"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "Pagamento em até 6x sem juros no cartão de crédito",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals2": {
+  "flex-layout.row#deals2": {
+    "props": {
+      "blockClass": "info-box"
+    },
     "children": [
       "image#deal2",
       "rich-text#deal2"
@@ -38,16 +45,21 @@
   "image#deal2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "width": "57px",
+      "maxHeight": "unset",
+      "bodyClass": "image-info-box"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Desconto de até 5% em pagamentos realizados por boleto bancário",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals3": {
+  "flex-layout.row#deals3": {
+    "props": {
+      "blockClass": "info-box"
+    },
     "children": [
       "image#deal3",
       "rich-text#deal3"
@@ -56,12 +68,14 @@
   "image#deal3": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "width": "57px",
+      "maxHeight": "unset",
+      "bodyClass": "image-info-box"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "Frete Grátis em pedidos com valor acima de R$ 500 para as regiões Sul e Sudeste",
       "blockClass": "deals"
     }
   },
@@ -73,8 +87,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png"
     }
   },
   "rich-text#deal4": {

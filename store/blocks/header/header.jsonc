@@ -56,7 +56,6 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "search-bar#menu",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]

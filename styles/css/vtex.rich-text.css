@@ -1,5 +1,5 @@
 .container--deals {
-  color: #ffffff;
+  color: #959595;
   text-align: center;
   justify-content: center;
 }
@@ -25,6 +25,7 @@
 .container--question {
   justify-content: center;
 }
+
 
 .container--question .paragraph {
   text-align: center;

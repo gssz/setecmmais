@@ -22,11 +22,14 @@
   color: #fff;
 }
 
+
+
 .flexRowContent--main-header {
   background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
+  box-shadow: inset 0px 87px 40px #00000090;
 }
 
 .flexRowContent--main-header-mobile {
@@ -45,7 +48,7 @@
   font-size: 14px;
 }
 .flexRow--deals {
-  background-color: #000;
+  background-color: transparent;
   padding: 14px 0px;
 }
 

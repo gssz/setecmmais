@@ -23,7 +23,10 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .flexRowContent--main-header-mobile {

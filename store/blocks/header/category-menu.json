@@ -15,6 +15,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "department-menu",
       "itemProps": {
         "type": "internal",
         "href": "/apparel---accessories/",
@@ -97,6 +98,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "department-menu",
       "itemProps": {
         "type": "internal",
         "href": "/home---decor/",
@@ -112,6 +114,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "department-menu",
       "itemProps": {
         "type": "internal",
         "href": "#",

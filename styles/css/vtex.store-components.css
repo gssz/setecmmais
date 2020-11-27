@@ -15,10 +15,12 @@
 }
 
 .searchBarContainer{
-  background-color: red;
   display: flex!important;
   align-items: center;
 }
+/* .bg-base {
+  background-color: transparent!important;
+} */
 
 .infoCardContainer--info-card-home {
   max-width: 1520px;

@@ -22,14 +22,8 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
     "props": {
       "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "exemplo 2"
     }
   },
   "flex-layout.row#3-desktop": {

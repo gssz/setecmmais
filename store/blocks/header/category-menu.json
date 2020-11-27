@@ -19,8 +19,8 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Vinhos",
+        "text": "Vinhos"
       }
     },
     "blocks": [
@@ -29,7 +29,8 @@
   },
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
-      "width": "auto"
+      "width": "auto",
+      "blockClass": "menu-container"
     },
     "children": [
       "vtex.menu@2.x:menu#category-apparel"
@@ -100,8 +101,8 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Sommeliers",
+        "text": "Sommeliers"
       }
     }
   },
@@ -115,8 +116,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Gourmet & Acessórios",
+        "text": "Gourmet & Acessórios"
       }
     },
     "blocks": [

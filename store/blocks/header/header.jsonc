@@ -9,7 +9,6 @@
     "children": [
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -35,15 +34,8 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+
     ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
   },
   "sticky-layout#4-desktop": {
     "props": {
@@ -63,12 +55,17 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
-      "search-bar",
+      "search-bar#menu",
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
+  },
+  "search-bar#menu":{
+    "props": {
+      "placeholder": "Encontre seu vinho",
+      "blockClass": "search-menu"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -100,7 +97,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],

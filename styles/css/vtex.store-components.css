@@ -10,6 +10,16 @@
   max-width: 208px;
 }
 
+.autoCompleteOuterContainer--search-menu{
+  background-color: transparent!important;
+}
+
+.searchBarContainer{
+  background-color: red;
+  display: flex!important;
+  align-items: center;
+}
+
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;

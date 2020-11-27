@@ -39,14 +39,40 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "flex-layout.col#productDescription",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
       "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
       "product-installments#summary",
       "add-to-cart-button"
     ]
+  },
+
+  "flex-layout.col#productDescription": {
+    "props": {
+      "blockClass": "product-description"
+    },
+    "children": [
+      "image#country",
+      "rich-text#text-description"
+    ]
+  },
+
+  "image#country": {
+    "props": {
+      "src": "https://static.todamateria.com.br/upload/fr/an/frana_a.jpg",
+      "width": "20px",
+      "height": "12px",
+      "maxHeight": "unset",
+      "blockClass": "image-country"
+    }
+  },
+
+  "rich-text#text-description": {
+    "props": {
+      "text": "Val de loire, França Rosé / Seco / 750 ml"
+    }
   },
 
   "product-summary-image#shelf": {
